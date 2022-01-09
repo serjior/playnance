@@ -11,7 +11,7 @@ public class DataProducerApplication {
 	public static void main(String[] args) throws InterruptedException {
 		SpringApplication.run(DataProducerApplication.class, args);
 
-		Thread.sleep(60000);
+		Thread.sleep(600000);
 		System.exit(111);
 	}
 

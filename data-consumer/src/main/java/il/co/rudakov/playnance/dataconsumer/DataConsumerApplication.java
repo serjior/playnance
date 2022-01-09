@@ -10,7 +10,7 @@ public class DataConsumerApplication {
 
 	public static void main(String[] args) throws InterruptedException {
 		SpringApplication.run(DataConsumerApplication.class, args);
-		Thread.sleep(60000);
+		Thread.sleep(600000);
 		System.exit(111);
 	}
 
